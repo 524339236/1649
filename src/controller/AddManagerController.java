@@ -39,7 +39,6 @@ public class AddManagerController extends HttpServlet {
 			request.setAttribute("msg", msg);
 			request.getRequestDispatcher("/finduserinfo.do?op=setmanager&mid="+mid+"&matchsystem="+matchsystem).forward(request, response);
 		}
-		
 		System.out.println(msg);
 		
 	}
